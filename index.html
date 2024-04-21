@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Form sheet</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Genesys Upskill Survey Form</h1>
+      <div></div>
+    <form action="">
+        <div class="text">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter your name" />
+        </div><br>
+        <div class="text">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Enter your email" />
+        </div><br>
+        <div class="text">
+          <label for="age">Age</label>
+          <input type="number" placeholder="Enter your age" />
+        </div><br>
+        <div class="text">
+            <div class="text">
+        <label for="dropdown">Which option best describes you?</label>
+        <select name="option" id="">
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="parent">Parent</option>
+        </select>
+    </div>
+    <div>
+    <p> Would you recommend Genesys Upskill to a friends?</p>
+        <input type="radio" name="options" />
+        <label for="radio">Yes</label><br>
+        <input type="radio" name="options" />
+        <label for="radio">No</label><br>
+        <input type="radio" name="options" />
+        <label for="radio">Maybe</label>
+    </div>
+<div>
+       <p> Languages and Frameworks known (check all that apply)</p>
+        <input type="checkbox" value="C" />
+        <label for="c">C</label><br>
+        <input type="checkbox" />
+        <label for="c++">C++</label><br>
+        <input type="checkbox" value="C#" />
+        <label for="c#">C#</label><br>
+        <input type="checkbox" value="Java" />
+        <label for="java">Java</label><br>
+
+        <input type="checkbox" />
+        <label for="javascript">Javascript</label><br>
+        <input type="checkbox" value="python" />
+        <label for="python">Python</label><br>
+        <input type="checkbox" />
+        <label for="angular">Angular</label><br>
+        <input type="checkbox" value="django" />
+        <label for="django">Django</label><br>
+        <input type="checkbox" />
+        <label for="Spring">Spring</label><br>
+    </div> <br>
+    <div>
+        <label for="textarea">Any comments or suggestions?</label>
+        <textarea name="" id="" cols="50" rows="2"></textarea>
+    </div>
+<div>
+        <button>submit</button>
+    </div>
+     
+</form>
+    </div>
+  </body>
+</html>
